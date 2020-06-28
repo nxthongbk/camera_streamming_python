@@ -5,5 +5,5 @@ Server
 python app.py
   
 Client
-* pip install opencv-python
+* pip3 install opencv-python
 * python ~streammer/sender.py
