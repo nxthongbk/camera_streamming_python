@@ -2,12 +2,8 @@
 
 ### Install Instruction:
 Server
-* pip install imutils 
-* pip install opencv-python
-* pip install imagezmq
-
-*  python server.py --prototxt MobileNetSSD_deploy.prototxt \
-	--model MobileNetSSD_deploy.caffemodel --montageW 2 --montageH 2
+python app.py
   
 Client
-* python client.py --server-ip 192.168.1.5
+* pip install opencv-python
+* python ~streammer/sender.py
